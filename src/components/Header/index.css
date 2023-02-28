@@ -1,0 +1,54 @@
+.header {
+  padding: 1rem 0;
+}
+
+.header ul {
+  padding-left: 0;
+  margin: 1rem 0 0;
+}
+
+.header ul li {
+  list-style: none;
+  margin: 0;
+}
+
+.header ul li a {
+  display: inline-block;
+  border-radius: 3px;
+  padding: .5rem 1rem;
+  text-decoration: none;
+}
+
+.header ul li a:hover {
+  background-color: #444;
+}
+
+.header ul li a.active {
+  background-color: #444;
+}
+
+.header a:hover {
+  text-decoration: none;
+}
+
+.header h3 {
+  margin: 0;
+}
+
+.header h3 a {
+  color: white;
+}
+
+.header h3 a:hover {
+  color: #00bc8c;
+}
+
+@media (min-width: 576px) {
+  .header {
+    padding: 1rem .75rem;
+  }
+
+  .header ul {
+    margin: 0 0 0 2rem;
+  }
+}
